@@ -716,7 +716,7 @@
 		"description": "Spawns a local .NET executable assembly as a Beacon post-exploitation job",
 		"prefix": "bexecute_assembly",
 		"body": [
-			"bexecute($0${1:beacon}, ${2:assembly}, ${3:parameters})"
+			"bexecute_assembly($0${1:beacon}, ${2:assembly}, ${3:parameters})"
 		]
 	},
 	"bexit": {
